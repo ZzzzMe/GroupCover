@@ -7,7 +7,7 @@ As same as [knockoff]([url](https://github.com/tribhuvanesh/knockoffnets)),:
 
 ## Code Structure
 - knockoff: This section focuses on the basic Model Stealing methods.
-    -- model: Here is the model implement for alexnet, resnet, vgg and so on. Corresponding to our obfuscation method, we rewrite the inference function of the network here.
+    - model: Here is the model implement for alexnet, resnet, vgg and so on. Corresponding to our obfuscation method, we rewrite the inference function of the network here.
 - models: Store attack results, both model checkpoint(do not upload) and attack logs. Here, adversary fold stores black-box attack result.
 - scripts: Provide scripts to replicate and attack other schemes. 
 - statisitcal: mainly analysis and reverse code.
