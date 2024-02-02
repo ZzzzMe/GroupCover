@@ -121,8 +121,6 @@ def modify_conv_layers(original_model, cluster_size=4):
 
 
 def main():
-    print("111")
-    # 创建解析器并设置描述
     parser = argparse.ArgumentParser(description='Train a model')   
     parser.add_argument('dataset', type=str, default='CIFAR10', help='Dataset to use')
     parser.add_argument('model_arch', type=str, default='resnet50', help='Model architecture')
@@ -143,10 +141,8 @@ def main():
     parser.add_argument('--optimizer_choice', type=str, default='sgdm', choices=['sgd', 'sgdm', 'adam', 'adagrad'], help='Optimizer choice')    
     parser.add_argument('--sigma', type=float, default=0.2, help='Scale param')    
 
-    # 解析命令行参数
     args = parser.parse_args()  
 
-    # 转换为字典
     params = vars(args) 
 
 
