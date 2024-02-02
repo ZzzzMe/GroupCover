@@ -1,7 +1,7 @@
 # Code for "GroupCover: A Secure, Efficient and Scalable Inference Framework for On-device Model Protection based on TEEs"
 
 ## Environment
-As same as knockoff[],:
+As same as [knockoff]([url](https://github.com/tribhuvanesh/knockoffnets)),:
 - Python 3.3
 - Pytorch 1.1
 
