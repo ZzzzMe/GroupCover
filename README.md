@@ -2,7 +2,7 @@
 
 ## Environment
 As same as [knockoff]([url](https://github.com/tribhuvanesh/knockoffnets)),:
-- Python 3.3
+- Python 3.8
 - Pytorch 1.1
 
 ## Code Structure
