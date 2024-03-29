@@ -9,9 +9,10 @@ We have deployed our experiments on both **Intel TDX** and **AMD SEV** platforms
 ## Intel TDX and AMD SEV Confidential Virtual Machines
 
 This section provides access credentials for the confidential virtual machines (VMs) powered by Intel TDX and AMD SEV, along with guidance on monitoring machine performance using `htop` within the VMs.
-![image](https://github.com/ZzzzMe/GroupCover/assets/49647496/d0c0df7f-c45e-403d-8e1b-0901cae63c15)
-![image](https://github.com/ZzzzMe/GroupCover/assets/49647496/bd479b8b-f5ee-495d-a926-7074c830dbb2)
-![image](https://github.com/ZzzzMe/GroupCover/assets/49647496/61d479ce-504d-4e5b-96d4-5b28b184f622)
+Looking at the VM kernel via the `dmesg | grep {TEE}` command, you can see that memory encryption is all turned on.
+![image](tdx.jpeg)
+![image](amd-sev.jpeg)
+![image](HTOP.jpeg)
 
 ## Objective
 
