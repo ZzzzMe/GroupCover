@@ -16,4 +16,4 @@ As same as [knockoff]([url](https://github.com/tribhuvanesh/knockoffnets)),:
 ## Reproduce
 - The attack pipeline is based on Knockoff. That means, you should execute `train_victim.sh` and `random.sh` first. Then, you can take `gen_xxx.sh` to generate the obfuscated model. Here we give the reproduce of `SOTER`, `ShadowNet`, `NNSplitter` and `Magnitude`. You can change models and datasets by conf params ahead of the file.
 - Use 'knockoff_xxx.sh' to attack them. Have fun!
-- [Our other repo](https://github.com/55199789/H2O2RAM) give an example of conducting a TD-VM. For the comunication from GPU to TEE, qemu's qemu-bridge-helper is useful.
+- [Our another repo](https://github.com/55199789/H2O2RAM) give an example of conducting a TD-VM. For the comunication from GPU to TEE, qemu's qemu-bridge-helper is useful.
